@@ -1,0 +1,20 @@
+body {
+    overflow-x:hidden;
+}
+header {
+    background-color:pink;
+    border: 5px dotted pink;
+}
+nav {
+    background-color:purple;
+    color:white;
+    position: absolute; 
+    top: 0;
+    right:-45vw;
+    width:50vw;
+    height:100vh;
+    transition: 0.3s;
+}
+nav:hover {
+    right:0;
+}
